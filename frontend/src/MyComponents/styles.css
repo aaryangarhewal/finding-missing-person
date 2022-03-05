@@ -1,0 +1,77 @@
+.navbar {
+    transition: all 0.4s;
+    background-color: #fab651;
+}
+
+.navbar .nav-link {
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #ffee00;
+    text-decoration: none;
+}
+
+.navbar .navbar-brand {
+    color: rgb(0, 0, 0);
+    font-size: 2.25rem;
+}
+
+
+/* Change navbar styling on scroll */
+.navbar.active {
+    background: #fab651;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+    color: rgb(0, 0, 0);
+}
+.py-3 {
+    padding-top: 4rem!important;
+    padding-bottom: 2rem!important;
+}
+
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+    .navbar {
+        background: #fab651;
+    }
+
+    .navbar .navbar-brand, .navbar .nav-link {
+        color: rgb(0, 0, 0);
+    }
+}
+
+
+
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSES
+* ==========================================
+*
+*/
+.text-small {
+    font-size: 0.9rem !important;
+}
+
+
+body {
+    min-height: 110vh;
+    background-color: #4ca1af;
+    background-image: linear-gradient(135deg, #4ca1af 0%, #c4e0e5 100%);
+}
